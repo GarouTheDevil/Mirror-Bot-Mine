@@ -120,7 +120,7 @@ def _clone(message, bot, multi=0):
                     update_all_messages()
             except IndexError:
                 pass
-        cc = f'\n\n<b>Hey </b>{tag}<b> Your Task is Done</b>\n\n<b>Thanks for using <i>@Z_Mirror</i></b>'
+        cc = f'\n\n<b></b>{tag}<b> Your Task is Done</b>'
         if button in ["cancelled", ""]:
             sendMessage(f"{tag} {result}", bot, message)
         else:
